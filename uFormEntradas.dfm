@@ -38,6 +38,7 @@ inherited frmEntradas: TfrmEntradas
       Anchors = [akRight, akBottom]
       Caption = 'Excluir'
       TabOrder = 1
+      OnClick = btnExcluirClick
     end
     object btnAlterar: TButton
       Left = 476
@@ -47,6 +48,7 @@ inherited frmEntradas: TfrmEntradas
       Anchors = [akRight, akBottom]
       Caption = 'Alterar'
       TabOrder = 2
+      OnClick = btnAlterarClick
     end
     object btnIncluir: TButton
       Left = 395

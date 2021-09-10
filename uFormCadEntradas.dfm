@@ -1,9 +1,9 @@
 inherited frmCadEntrada: TfrmCadEntrada
   Caption = 'frmCadEntrada'
   ClientHeight = 276
-  ClientWidth = 369
+  ClientWidth = 371
   OnCreate = FormCreate
-  ExplicitWidth = 375
+  ExplicitWidth = 377
   ExplicitHeight = 305
   PixelsPerInch = 96
   TextHeight = 13
@@ -206,7 +206,7 @@ inherited frmCadEntrada: TfrmCadEntrada
     end
   end
   object btnCancelar: TButton
-    Left = 183
+    Left = 185
     Top = 244
     Width = 75
     Height = 28
@@ -214,9 +214,10 @@ inherited frmCadEntrada: TfrmCadEntrada
     Caption = '&Cancelar'
     TabOrder = 4
     OnClick = btnCancelarClick
+    ExplicitLeft = 183
   end
   object btnSalvar: TButton
-    Left = 102
+    Left = 104
     Top = 244
     Width = 75
     Height = 28
@@ -224,5 +225,6 @@ inherited frmCadEntrada: TfrmCadEntrada
     Caption = '&Salvar'
     TabOrder = 3
     OnClick = btnSalvarClick
+    ExplicitLeft = 102
   end
 end

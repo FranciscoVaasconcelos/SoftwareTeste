@@ -91,8 +91,10 @@ object DM: TDM
           'FROM(SELECT'
           
             #9#9'(x.QuantidadeComprada - x.QuantidadeTotalVendida) AS QuantAtua' +
-            'lNoTanque,'
-          '        Capacidade'
+            'lNoTanque,        '
+          '        Capacidade,'
+          '        QuantidadeComprada,'
+          '        QuantidadeTotalVendida'
           #9'FROM(SELECT'
           
             #9#9'(SELECT Capacidade FROM TanquesCombustivel WHERE Id = :ID) AS ' +
